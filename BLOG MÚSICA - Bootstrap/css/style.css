@@ -9,18 +9,15 @@ body {
 }
 .encabezado {
 	max-height: 15%;
-	margin-bottom: 20px;
+	padding: 0px !important;
 }
 .logo {
 	padding: 1%;
-	text-align: center;
 }
 .img-logo {
 	width: 75%;
-	float: left;
 }
 .redes {
-	float: right;
 	margin: 2%;
 }
 .img-social {
@@ -32,6 +29,7 @@ body {
 	font-family: Roboto Slab;
 	font-weight: 600;
 	border-radius: 0px;
+	padding: 0px !important;
 }
 .navegacion > a {
 	color: #fff;
@@ -57,4 +55,22 @@ body {
 	width: 100%;
 	margin: 10% 0%;
 	border-radius: 10px;
+}
+
+
+@media (max-width: 784px) {
+	.derecha {
+		display: none !important;
+	}
+	.img-social {
+	width: 50px;
+	height: 50px;
+	margin: 25px 0px;
+	}
+	.redes {
+		margin: 0px !important;
+	}
+	.navegacion {
+		font-size: 20px;
+	}
 }
