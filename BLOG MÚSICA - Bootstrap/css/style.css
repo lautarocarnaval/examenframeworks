@@ -1,0 +1,60 @@
+body {
+	width: 100%;
+	height: 100%;
+	background-image: url(../img/yvette-de-wit-118721.jpg);
+	background-repeat: no-repeat;
+	background-position: fixed;
+	background-size: cover;
+	margin: 0px auto;
+}
+.encabezado {
+	max-height: 15%;
+	margin-bottom: 20px;
+}
+.logo {
+	padding: 1%;
+	text-align: center;
+}
+.img-logo {
+	width: 75%;
+	float: left;
+}
+.redes {
+	float: right;
+	margin: 2%;
+}
+.img-social {
+	width: 25px;
+	height: 25px;
+}
+.navegacion {
+	background-color: rgba(0,0,0,0.25);
+	font-family: Roboto Slab;
+	font-weight: 600;
+	border-radius: 0px;
+}
+.navegacion > a {
+	color: #fff;
+	line-height: 50px;
+}
+.navegacion > a:hover {
+	background-color: rgba(0,0,0,0.5);
+	text-decoration: none;
+}
+.contenido {
+	background-color: #ececec;
+	padding: 1%;
+}
+.articulos {
+
+}
+.derecha {
+	background-color: #cecece;
+	min-height: 50rem;
+	padding-top: 20px;
+}
+.post-image {
+	width: 100%;
+	margin: 10% 0%;
+	border-radius: 10px;
+}
