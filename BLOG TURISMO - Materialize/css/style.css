@@ -1,0 +1,27 @@
+.superior {
+	min-height: 4rem;
+}
+.grupos {
+	min-height: 50rem;
+	border: 1px solid #000;
+}
+.principal {
+	min-height: 50rem;
+	border: 1px solid #000;
+}
+.publicaciones {
+	min-height: 50rem;
+	border: 1px solid #000;
+}
+.noticias {
+	min-height: 50rem;
+	border: 1px solid #000;
+}
+.chat {
+	min-height: 50rem;
+	border: 1px solid #000;
+}
+.bloque {
+	min-height: 25rem;
+	
+}
