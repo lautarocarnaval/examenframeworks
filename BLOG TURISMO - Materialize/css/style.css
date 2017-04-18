@@ -1,27 +1,56 @@
-.superior {
-	min-height: 4rem;
+body {
+
 }
-.grupos {
-	min-height: 50rem;
-	border: 1px solid #000;
+
+.wrapper {
+	background-image: url(../img/joseph-barrientos-22207.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
 }
-.principal {
-	min-height: 50rem;
-	border: 1px solid #000;
+.brand-logo > img {
+	width: 100%;
+	padding: 7%;
 }
-.publicaciones {
-	min-height: 50rem;
-	border: 1px solid #000;
+.brand-logo {
+	margin-left: 7%;
 }
-.noticias {
-	min-height: 50rem;
-	border: 1px solid #000;
+.slogan {
+	margin-right: 3%
 }
-.chat {
-	min-height: 50rem;
-	border: 1px solid #000;
+.btn-floating.btn-large {
+	width: 45px;
+	height: 45px;
 }
-.bloque {
-	min-height: 25rem;
-	
+.btn-floating.btn-large i {
+	line-height: 46px;
+}
+.fixed-action-btn ul {
+	top: 77px;
+	bottom: initial;
+}
+.fixed-action-btn.vertical {
+	width: 55px;
+}
+.fixed-action-btn ul li {
+	margin-bottom: 8px !important;
+	line-height: 45px;
+}
+nav ul a.btn-floating {
+	margin: 0 0 0 2px !important;
+}
+.post {
+	padding: 2%;
+	margin-bottom: 32px !important;
+}
+.perfil {
+	padding: 4%;
+	margin-bottom: 32px !important;
+}
+
+
+@media (max-width: 768px) {
+	.brand-logo {
+	margin-left: 0%;
+}
 }
