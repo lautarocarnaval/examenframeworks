@@ -1,0 +1,22 @@
+body {
+	background-image: url(../img/wall-of-xavier-197992.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+}
+.logo-img{
+  width: 30%;
+}
+
+div.secondary.callout.text-center{
+  min-height: 242px;
+}
+
+.contenido {
+	background-color: rgba(255,255,0,0.4);
+}
+
+@media (max-width: 790px) {
+.izquierda {
+	display: none;
+}
+}
